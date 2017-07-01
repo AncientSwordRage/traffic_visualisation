@@ -1,0 +1,40 @@
+{
+  "name": "js-seed",
+  "version": "0.0.1",
+  "description": "A starter project Angular",
+  "repository": "https://github.com/jseto/js-seed.git",
+  "license": "MIT",
+  "engines": {
+    "node": "~4.1.1"
+  },
+  "devDependencies": {
+    "bower": "^1.5.3",
+    "browser-sync": "^2.9.8",
+    "codeclimate-test-reporter": "^0.1.1",
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-protractor": "^1.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-typescript": "^2.9.2",
+    "gulp-util": "^3.0.6",
+    "jasmine-core": "^2.3.4",
+    "jasmine-reporters": "git://github.com/larrymyers/jasmine-reporters.git",
+    "karma": "^0.13.10",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-coverage": "^0.5.2",
+    "karma-firefox-launcher": "^0.1.6",
+    "karma-jasmine": "^0.3.6",
+    "karma-junit-reporter": "^0.3.7",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-sourcemap-loader": "^0.3.5",
+    "merge2": "^0.3.6",
+    "require-dir": "^0.3.0",
+    "run-sequence": "^1.1.4",
+    "tsd": "^0.6.4"
+  },
+  "dependencies": {},
+  "scripts": {
+    "postinstall": "bower install && tsd reinstall && gulp postinstall"
+  }
+}
